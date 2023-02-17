@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fundametnos de javaScript</h1>
+    <script>
+        //Concatenacion
+        /*let nombre = "Luis";
+        let apellido = "Berrio";
+
+        console.log(":: Concatenacion ::");
+        console.log("Hola mi nombre es " + nombre + " " + apellido);
+
+        //Interpolacion (template string)
+        let saludo = `Hola mi nombre es ${nombre} ${apellido}`;
+
+        console.log(":: Interpolacion ::");
+        console.log(saludo);*/
+      /// console.log(value == value.split("").reverse().join(""));
+
+    const values = [];
+    let value = 0
+    let pvt = 0;
+    const resultado = [3,6,-2,5,7,3].reduce((a,b) => {
+        if (pvt == 0) {
+            return a * b > pvt ? b : pvt ;
+        } else {
+            value = pvt * b
+        }
+    });
+
+    console.log(values);
+    
+    /*inputArray.reduce(function(valorAnterior, valorActual) {
+        let value = valorAnterior + valorActual;
+        console.log(value);
+    })*/
+    
+    /*for (let i = 0; i < (inputArray.length - 1);  i++) {
+        let value = inputArray[n] + inputArray[n + 1];
+        resultArray.push(value);
+    }*/
+
+
+
+    </script>
+</body>
+</html>
